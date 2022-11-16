@@ -1,6 +1,7 @@
 package net.nodnarb.noob;
 
 import net.fabricmc.api.ModInitializer;
+import net.nodnarb.noob.block.ModBlocks;
 import net.nodnarb.noob.item.ModItems;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -11,6 +12,8 @@ public class Noob implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
+
 		ModItems.registerModItems();
+		ModBlocks.registerModBlocks();
 	}
 }
