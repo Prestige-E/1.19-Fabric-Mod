@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "noob:block/bouncer_bottom",
+    "up": "noob:block/bouncer_top",
+    "north": "noob:block/bouncer_side",
+    "south": "noob:block/bouncer_side",
+    "east": "noob:block/bouncer_side",
+    "west": "noob:block/bouncer_side",
+    "particle": "noob:block/bouncer_side"
+  }
+}

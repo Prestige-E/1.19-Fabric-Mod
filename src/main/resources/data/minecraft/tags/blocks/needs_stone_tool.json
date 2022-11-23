@@ -2,6 +2,7 @@
   "replace": false,
   "values": [
     "noob:poop_ore",
-    "noob:poop_block"
+    "noob:poop_block",
+    "noob:bouncer"
   ]
 }

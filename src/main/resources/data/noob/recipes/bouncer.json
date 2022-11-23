@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "#S#",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:cobblestone"
+    },
+    "S": {
+      "item": "minecraft:slime_block"
+    }
+  },
+  "result": {
+    "item": "noob:bouncer",
+    "count": 2
+  }
+}

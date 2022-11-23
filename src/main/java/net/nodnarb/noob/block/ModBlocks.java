@@ -12,14 +12,18 @@ import net.minecraft.util.Identifier;
 import net.minecraft.util.math.intprovider.UniformIntProvider;
 import net.minecraft.util.registry.Registry;
 import net.nodnarb.noob.Noob;
+import net.nodnarb.noob.block.custom.Bouncer;
 import net.nodnarb.noob.item.ModItemGroup;
 
 public class ModBlocks {
     public static final Block POOP_BLOCK = registerBlock("poop_block",
-            new Block(FabricBlockSettings.of(Material.CARPET).strength(3f).requiresTool()), ModItemGroup.POOP);
+            new Block(FabricBlockSettings.of(Material.METAL).strength(3f).requiresTool()), ModItemGroup.POOP);
 
     public static final Block NEON_PURPLE = registerBlock("neon_purple",
-            new Block(FabricBlockSettings.of(Material.CARPET).strength(3f).requiresTool()), ModItemGroup.POOP);
+            new Block(FabricBlockSettings.of(Material.STONE).strength(3f).requiresTool()), ModItemGroup.POOP);
+
+    public static final Block BOUNCER = registerBlock("bouncer",
+            new Bouncer(FabricBlockSettings.of(Material.STONE).strength(3f).requiresTool()), ModItemGroup.POOP);
 
     public static final Block POOP_ORE = registerBlock("poop_ore",
             new OreBlock(FabricBlockSettings.of(Material.STONE).strength(3f).requiresTool(),
