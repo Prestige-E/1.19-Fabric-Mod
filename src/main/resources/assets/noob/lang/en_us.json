@@ -1,10 +1,11 @@
 {
   "item.noob.smashed_poop": "Smashed Poop",
   "item.noob.poop": "Poop",
+  "item.noob.eight_ball": "Eight Ball",
 
   "block.noob.poop_block": "Block Of Poop",
   "block.noob.poop_ore": "Poop Ore",
   "block.noob.neon_purple": "Neon Purple Block",
 
-  "itemGroup.noob.poop": "Noob Custom Tab"
+  "itemGroup.noob.poop": "Testing Mod Tab"
 }
