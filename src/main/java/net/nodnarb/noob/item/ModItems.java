@@ -14,7 +14,7 @@ public class ModItems {
     public static final Item POOP = registerItem("poop",
             new Item(new FabricItemSettings().group(ModItemGroup.POOP)));
     public static final Item EIGHT_BALL = registerItem("eight_ball",
-            new EightBallItem(new FabricItemSettings().group(ItemGroup.MISC).maxCount(1)));
+            new EightBallItem(new FabricItemSettings().group(ModItemGroup.POOP).maxCount(1)));
 
 
 
