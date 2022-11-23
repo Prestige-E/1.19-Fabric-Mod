@@ -1,13 +1,11 @@
 {
-  "item.noob.smashed_poop": "Smashed Poop",
-  "item.noob.poop": "Poop",
   "item.noob.eight_ball": "Eight Ball",
   "item.noob.ice_chunk": "Ice Chunk",
+  "item.noob.ruby": "Ruby",
 
-  "block.noob.poop_block": "Block Of Poop",
-  "block.noob.poop_ore": "Poop Ore",
-  "block.noob.neon_purple": "Neon Purple Block",
   "block.noob.bouncer": "Bouncer",
+  "block.noob.ruby_block": "Ruby Block",
+  "block.noob.ruby_ore": "Ruby Ore",
 
-  "itemGroup.noob.poop": "Testing Mod Tab"
+  "itemGroup.noob.ruby": "Testing Mod Tab"
 }

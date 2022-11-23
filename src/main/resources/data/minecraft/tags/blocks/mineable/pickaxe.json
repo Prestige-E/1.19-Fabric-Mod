@@ -1,8 +1,8 @@
 {
   "replace": false,
   "values": [
-    "noob:neon_purple",
-    "noob:poop_ore",
-    "noob:bouncer"
+    "noob:bouncer",
+    "noob:ruby_ore",
+    "noob:ruby_block"
   ]
 }

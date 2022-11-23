@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
-    "noob:neon_purple"
+    "noob:ruby_block",
+    "noob:ruby_ore"
   ]
 }

@@ -9,14 +9,14 @@ import net.nodnarb.noob.item.custom.EightBallItem;
 import net.nodnarb.noob.item.custom.IceChunkItem;
 
 public class ModItems {
-    public static final Item SMASHED_POOP = registerItem("smashed_poop",
-            new Item(new FabricItemSettings().group(ModItemGroup.POOP)));
-    public static final Item POOP = registerItem("poop",
-            new Item(new FabricItemSettings().group(ModItemGroup.POOP)));
+    public static final Item RUBY = registerItem("ruby",
+            new Item(new FabricItemSettings().group(ModItemGroup.RUBY)));
+
     public static final Item EIGHT_BALL = registerItem("eight_ball",
-            new EightBallItem(new FabricItemSettings().group(ModItemGroup.POOP).maxCount(1)));
+            new EightBallItem(new FabricItemSettings().group(ModItemGroup.RUBY).maxCount(1)));
+
     public static final Item ICE_CHUNK = registerItem("ice_chunk",
-            new IceChunkItem(new FabricItemSettings().group(ModItemGroup.POOP).maxCount(16)));
+            new IceChunkItem(new FabricItemSettings().group(ModItemGroup.RUBY).maxCount(16)));
 
 
 

@@ -7,6 +7,6 @@ import net.minecraft.util.Identifier;
 import net.nodnarb.noob.Noob;
 
 public class ModItemGroup {
-    public static final ItemGroup POOP = FabricItemGroupBuilder.build(
-            new Identifier(Noob.MOD_ID, "poop"), () -> new ItemStack(ModItems.POOP));
+    public static final ItemGroup RUBY = FabricItemGroupBuilder.build(
+            new Identifier(Noob.MOD_ID, "ruby"), () -> new ItemStack(ModItems.RUBY));
 }
