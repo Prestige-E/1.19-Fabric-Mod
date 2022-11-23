@@ -23,6 +23,8 @@ public class Bouncer extends Block {
     public ActionResult onUse(BlockState state, World world, BlockPos pos, PlayerEntity player,
                               Hand hand, BlockHitResult hit) {
 
+        // Server/Server: Looks for Main Hand &/or Off-Hand
+
         player.sendMessage(Text.literal("Right Clicked This!"));
 
         return super.onUse(state, world, pos, player, hand, hit);
@@ -31,7 +33,7 @@ public class Bouncer extends Block {
     @Override
     public void onSteppedOn(World world, BlockPos pos, BlockState state, Entity entity) {
         if (entity instanceof LivingEntity livingEntity) {
-            livingEntity.addStatusEffect(new StatusEffectInstance(new StatusEffectInstance(StatusEffects.JUMP_BOOST, 30)));
+            livingEntity.addStatusEffect(new StatusEffectInstance(new StatusEffectInstance(StatusEffects.JUMP_BOOST, 30, 3)));
         }
 
         super.onSteppedOn(world, pos, state, entity);
