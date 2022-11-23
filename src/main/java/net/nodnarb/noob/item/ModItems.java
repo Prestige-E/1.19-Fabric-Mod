@@ -2,11 +2,11 @@ package net.nodnarb.noob.item;
 
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.minecraft.item.Item;
-import net.minecraft.item.ItemGroup;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.Registry;
 import net.nodnarb.noob.Noob;
 import net.nodnarb.noob.item.custom.EightBallItem;
+import net.nodnarb.noob.item.custom.IceChunkItem;
 
 public class ModItems {
     public static final Item SMASHED_POOP = registerItem("smashed_poop",
@@ -15,6 +15,8 @@ public class ModItems {
             new Item(new FabricItemSettings().group(ModItemGroup.POOP)));
     public static final Item EIGHT_BALL = registerItem("eight_ball",
             new EightBallItem(new FabricItemSettings().group(ModItemGroup.POOP).maxCount(1)));
+    public static final Item ICE_CHUNK = registerItem("ice_chunk",
+            new IceChunkItem(new FabricItemSettings().group(ModItemGroup.POOP).maxCount(16)));
 
 
 
