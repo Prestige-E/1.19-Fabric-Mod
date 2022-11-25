@@ -1,6 +1,8 @@
 {
   "replace": false,
   "values": [
-    "noob:bouncer"
+    "noob:bouncer",
+    "noob:path",
+    "noob:ruby_lamp"
   ]
 }

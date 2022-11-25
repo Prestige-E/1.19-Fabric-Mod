@@ -1,0 +1,6 @@
+{
+  "variants": {
+    "lit=true": { "model": "noob:block/ruby_lamp_lit" },
+    "lit=false": { "model": "noob:block/ruby_lamp" }
+  }
+}

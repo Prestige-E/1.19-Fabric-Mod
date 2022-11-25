@@ -2,6 +2,7 @@
   "replace": false,
   "values": [
     "noob:ruby_block",
-    "noob:ruby_ore"
+    "noob:ruby_ore",
+    "noob:deepslate_ruby_ore"
   ]
 }

@@ -3,6 +3,9 @@
   "values": [
     "noob:bouncer",
     "noob:ruby_ore",
-    "noob:ruby_block"
+    "noob:ruby_block",
+    "noob:deepslate_ruby_ore",
+    "noob:path",
+    "noob:ruby_lamp"
   ]
 }

@@ -2,10 +2,16 @@
   "item.noob.eight_ball": "Eight Ball",
   "item.noob.ice_chunk": "Ice Chunk",
   "item.noob.ruby": "Ruby",
+  "item.noob.tomato": "Tomato",
+  "item.noob.tomato_seed": "Tomato Seed",
 
+  "block.noob.tomato_crop": "Tomato Crop",
   "block.noob.bouncer": "Bouncer",
+  "block.noob.path": "Path",
   "block.noob.ruby_block": "Ruby Block",
   "block.noob.ruby_ore": "Ruby Ore",
+  "block.noob.deepslate_ruby_ore": "Deepslate Ruby Ore",
+  "block.noob.ruby_lamp": "Ruby Lamp",
 
   "itemGroup.noob.ruby": "Testing Mod Tab"
 }
